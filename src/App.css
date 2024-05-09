@@ -1,0 +1,192 @@
+/*styling for the survey portion of the app.*/
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.survey {
+  width: 50%;
+  margin: auto;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.math-btn {
+  margin: 5px;
+  background-color: #d4e86c;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lit-btn {
+  margin: 5px;
+  background-color: #92aceb;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lit-btn:hover {
+  background-color: #617ec1;
+}
+
+.math-btn:hover {
+  background-color: #b3c947;
+}
+
+.submit-btn {
+margin: 5px;
+background-color: #262b38;
+padding: 10px 20px;
+font-size: 12px;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/*styling for the sudoku puzzle portion of the app.*/
+.sudoku-square {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+.sudoku-square[readonly] {
+  background-color: #f0f0f0;
+}
+
+.preset {
+  background-color: #f0f0f0;
+}
+
+.sudoku-row:nth-child(3n) .sudoku-square {
+  border-bottom-width: 3px;
+}
+
+.sudoku-square:nth-child(3n) {
+  border-right-width: 3px;
+}
+
+.number-input {
+  margin-top: 10px;
+}
+
+.number-input button {
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.number-input button.active {
+  background-color: #f0f06e;
+}
+
+.sudoku-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sudoku-square.incorrect {
+  background-color: #ffcccc;
+}
+
+.sudoku-square.correct {
+  background-color: #ccffcc;
+}
+
+.sudoku-square.blank {
+  background-color: #ffffff;
+}
+
+/*styling for the word search puzzle portion of the app.*/
+.word-search-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.cell.selected {
+  background-color: #7af5ff;
+}
+
+.cell.found {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.words-to-find {
+  margin-top: 20px;
+}
+
+.words-to-find h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.words-to-find ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.words-to-find li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.words-to-find li.found {
+  text-decoration: line-through;
+}
+
+.checkWord-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkWord-btn:hover {
+  background-color: #45a049;
+}
+
+.wordSearch {
+  text-align: center;
+}
